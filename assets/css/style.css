@@ -64,6 +64,12 @@ p {
   font-size: 35px;
 }
 
+.trabajo h5 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
 .redes a:visited,
  .redes a {
   color: #ffffff;
@@ -76,4 +82,10 @@ p {
 .redes {
   margin-top: 50px;
   height: 200px;
+}
+
+footer p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
 }
