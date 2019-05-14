@@ -12,6 +12,10 @@
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,700" rel="stylesheet">
 
+  <!--Font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
   <!--Mi estilo-->
   <link rel="stylesheet" href="assets/css/style.css">
 
@@ -20,27 +24,142 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#"><h2 class="logo">Victoria</h2></a>
+      <a class="navbar-brand" href="#"><h2 class="logo">V</h2></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link text-white" href="#">Sobre mi</a>
+            <a class="nav-link text-white" href="#sobremi">Sobre mi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Experiencia</a>
+            <a class="nav-link text-white" href="#experiencia">Experiencia</a>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Trabajos</a>
+              <a class="nav-link text-white" href="#trabajos">Trabajos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Contacto</a>
+              <a class="nav-link text-white" href="#contact">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <header class="hero text-white text-center pt-5 mt-5">
+      <div class="container">
+        <h1 class="display-1 font-weight-bold my-5">YO SOY</h1>
+        <hr color="white" size="3px" width="200px"></hr>
+        <h2 class="my-5">VICTORIA</h2>
+      </div>
+    </header>
+
+    <div class="container sobremi d-none d-sm-block" id="sobremi">
+      <h3 class="text-center my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+      <hr color="black" size="4px" width="200px"></hr>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+
+    <section id="experiencia" class="experiencia container text-center my-5">
+      <h1 class="text-center my-5">MI EXPERIENCIA</h1>
+      <hr color="black" size="4px" width="200px"></hr>
+
+      <div class="row icons">
+        <div class="col-md-6">
+          <i class="fab fa-accusoft fa-3x my-3"></i>
+          <h3 class="my-3">Crítica culinaria</h3>
+          <p class="my-3">1997 - 2007</p>
+        </div>
+        <div class="col-md-6">
+          <i class="fas fa-camera fa-3x my-3"></i>
+          <h3 class="my-3">Fotógrafa</h3>
+          <p class="my-3">2008 - 2019</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="trabajos" class="trabajo bg-morado text-center text-black">
+      <div class="fondo my-5 text-white">
+        <h1>MIS ÚLTIMOS TRABAJOS</h1>
+        <hr color="white" size="4px" width="200px"></hr>
+      </div>
+
+      <div class="card-deck my-5">
+        <div class="card">
+          <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cuppon</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/dmark.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">DMark</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="card-deck my-5">
+        <div class="card">
+          <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Meet & Coffee</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+          <div class="card-body">Ricomida
+            <h5 class="card-title"></h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Suricata</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contacto container my-5">
+      <h1 class="display-3 font-weight-bold text-center my-4">CONTACTO</h1>
+      <hr color="black" size="4px" width="200px"></hr>
+
+      <div class="typeform-widget" data-url="https://victoriadelsante.typeform.com/to/Dc1g1f" style="width: 100%; height: 500px;"></div>
+      <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+      <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=Dc1g1f&utm_source=typeform.com-13909378-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+    </section>
+
+    <footer id="redes" class="redes oscuro bg-dark text-center">
+      <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+      <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      <p>Victoria 2019. Todos los derechos reservados</p>
+    </footer>
 
 
 
@@ -53,6 +172,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!--Mi script-->
-    <script src="assets/js/script.js">
-</body> 
-</html>
+    <script src="assets/js/script.js"></script>
+  </body>
+  </html>
