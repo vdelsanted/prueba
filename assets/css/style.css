@@ -84,6 +84,10 @@ p {
   height: 200px;
 }
 
+.social {
+  margin-top: 4px;
+}
+
 footer p {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
